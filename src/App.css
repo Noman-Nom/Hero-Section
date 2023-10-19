@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap');
+
+
+/* yahan par jitni bhi css us ho rhi he wo globally use ho rahi he i ko hum kahi bhi apply kar skyte hen  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    /* margin-top: 10px; */
+    align-items: center;
+    height: 72px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: #D01C28;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.hero{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    /* height: 100vh;    jab mne height 100vh di to scrool arha tha to mene calc fnn use karna he nav ki height kko is se minus karna hoga */
+    height: calc(100vh-72px);
+}
+.hero h1{
+    font-size: 80px;
+    font-weight: 800px;
+    line-height: 102px;
+    width: 595px;
+height: 306px;
+font-weight: bold;
+}
+.hero p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5A5959;
+    width: 400px;
+}
+.hero-btn {
+    display: flex;
+    gap: 52px;
+}
+.btn_secon{
+    background: transparent;
+    color:#5A5959 ;
+    border: 1px solid gray;
+}
+.shopping p{
+    font-size: 16px;
+    margin-bottom:10px ;
+}
+.brand-icons{
+    display: flex;
+    gap: 15px;
+}
